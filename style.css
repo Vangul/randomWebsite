@@ -8,7 +8,7 @@ body{
     --saturation: 22%;
     --lightness: 66%;
     box-sizing: border-box;
-    background-image: url(./images/space.jpg);
+    background: url(./images/space.jpg) no-repeat;
     background-color: hsl(var(--hue) var(--lightness)var(--saturation));
     text-align: center;
     
