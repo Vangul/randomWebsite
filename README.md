@@ -1,2 +1,6 @@
 # randomWebsite
+
 Just a random website to try things...
+
+(trying to figure css out ...
+Want build awesome websites :)
