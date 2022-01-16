@@ -123,6 +123,7 @@ p {
     width: 40px;
     height: 40px;
     margin-right: 10px;
+    border-radius: 18px;
     
 }
 .cube1{
@@ -130,21 +131,21 @@ p {
     --saturation: 100%;
     --lightness: 60%;
     background-color: hsl(var(--hue) var(--lightness)var(--saturation) / .26);
-    animation: left 1s infinite;
+    animation: left 0.8s infinite;
 }
 .cube2{
     --hue: 210;
     --saturation: 44%;
     --lightness: 10%;
     background-color: hsl(var(--hue) var(--lightness)var(--saturation)/ .26);
-    animation: left2 1s infinite;
+    animation: left2 0.5s infinite;
 }
 .cube3{
     --hue: 32;
     --saturation: 88%;
     --lightness: 93%;
     background-color: hsl(var(--hue) var(--lightness)var(--saturation)/ .26);
-    animation: right2 1s infinite;
+    animation: right2 0.7s infinite;
 }
 .cube4{
     --hue: 170;
@@ -156,34 +157,35 @@ p {
 
 @keyframes left {
     40%{
-        transform: translateX(0);
+        transform: translateY(0);
     }
     50%{
-        transform: translateX(-60px);
+        transform: translateY(35px);
     }
 }
 
 @keyframes left2 {
     40%{
-        transform: translateX(0);
+        transform: translateY(0);
     }
     50%{
-        transform: translateX(-10px);
+        transform:
+        translateY(25px);
     }
 }
 @keyframes right {
     40%{
-        transform: translateX(0);
+        transform: translateY(0);
     }
     50%{
-        transform: translateX(60px);
+        transform: translateY(20px);
     }
 }
 @keyframes right2 {
     40%{
-        transform: translateX(0);
+        transform:translateY(0);
     }
     60%{
-        transform: translateX(10px);
+        transform: translateY(17px);
     }
 }
